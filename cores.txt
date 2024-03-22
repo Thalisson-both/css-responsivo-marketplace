@@ -1,0 +1,5 @@
+Cores para a pagina
+#121212
+#1A1C1E
+#3A4AF2
+#ADADAD
