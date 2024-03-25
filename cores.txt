@@ -3,3 +3,11 @@ Cores para a pagina
 #1A1C1E
 #3A4AF2
 #ADADAD
+
+teste
+#023059
+#0367A6
+#5CB9F2
+#F2B705
+#F28907
+#ececec
