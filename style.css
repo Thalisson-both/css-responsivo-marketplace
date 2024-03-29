@@ -108,3 +108,19 @@ footer{
     margin-top: 2vh;
     text-align: center;
 }
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    body {
+        width: 100%;
+        max-width: 1023px;
+        min-width: 641px;
+    }
+
+    header ul {
+        display: flex;
+    }
+
+    header ul a {
+        padding-left: 2vh;
+    }
+}
