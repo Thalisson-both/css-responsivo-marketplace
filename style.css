@@ -128,7 +128,19 @@ footer{
         display: grid;
         grid-template-columns: 0.8fr 0.8fr;
         column-gap: 3%;
-        height: auto;
-        align-self: baseline;
+        row-gap: 3vh;
+    }
+
+    .produtos ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    body {
+        width: 100%;
+        max-width: 1024px;
     }
 }
