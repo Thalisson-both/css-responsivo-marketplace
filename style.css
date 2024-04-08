@@ -103,9 +103,18 @@ h3, p {
     font-size: 0.9em;
 }
 
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F2B705;
+    color: #ececec;
+}
+
 footer{
     display: block;
-    margin-top: 2vh;
+    margin-top: 4vh;
     text-align: center;
 }
 
@@ -138,9 +147,60 @@ footer{
     }
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 1024px) {
     body {
         width: 100%;
         max-width: 1024px;
+        margin: 1% auto;
     }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    .container {
+        padding-top: 2px;
+    }
+
+    header ul li{
+        margin-left: 20px;
+        font-size: 3vh;
+        font-weight: bold;
+    }
+
+    .about {
+        display: flex;
+        align-items:start;
+        justify-content: space-between;
+    }
+
+    .about img {
+        width: 350px;
+        margin-right: 40px;
+    }
+
+    .about h2 {
+        margin: 0;
+    }
+
+    .product .produtos ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .product .produtos ul > li {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    
+
+    
 }
